@@ -33,7 +33,7 @@ To ensure the dataset was ready for modeling, we performed the following preproc
 
 During EDA, we examined both categorical and continuous variables along with the target variable. Specifically, we analyzed the distribution and frequency counts of each feature to identify patterns, imbalances, and potential data quality issues.
 
-Example plots: ![Example plot](images\categorical_features.png)
+Example plots: ![Example plot](images/categorical_features.png)
 ---
 
 ### Model Development
@@ -46,8 +46,8 @@ We implemented and compared several machine learning algorithms to predict custo
 Hyperparameter tuning was conducted to optimize model parameters and enhance predictive performance.
 
 #### Base XGBoost vs Tuned XGBoost Example:
-![Confusion Matrix Base XGBoost](images\confusion_matrix.png)
-![Confusion Matrix Tuned XGBoost](images\confusion_matrix_tuned.png)
+![Confusion Matrix Base XGBoost](images/confusion_matrix.png)
+![Confusion Matrix Tuned XGBoost](images/confusion_matrix_tuned.png)
 ---
 
 ### Model Evaluation
